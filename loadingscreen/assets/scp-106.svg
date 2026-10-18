@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <pattern id="grid106" width="20" height="20" patternUnits="userSpaceOnUse">
+    <path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  </pattern>
+  <rect width="100%" height="100%" fill="url(#grid106)"/>
+
+  <!-- Corrosive puddle / wall phasing portal -->
+  <g transform="translate(200, 150)">
+    <!-- Black slime puddle -->
+    <ellipse cx="0" cy="90" rx="95" ry="30" fill="#0b0b0b" stroke="#e74c3c" stroke-width="2"/>
+    <path d="M -70,90 Q -40,75 -20,95 Q 10,70 50,92 Q 80,85 70,90 Q 20,110 -70,90 Z" fill="#141414"/>
+
+    <!-- SCP-106 emerging from the black pool -->
+    <!-- Head with sinister grin and blackened decaying skin -->
+    <circle cx="0" cy="-40" r="26" fill="#1e1e1e" stroke="#e74c3c" stroke-width="2"/>
+    <!-- Creepy white eyes -->
+    <circle cx="-9" cy="-44" r="3" fill="#ffffff"/>
+    <circle cx="9" cy="-44" r="3" fill="#ffffff"/>
+    <!-- Distorted mouth -->
+    <path d="M -12,-30 Q 0,-22 12,-30" fill="none" stroke="#fff" stroke-width="2"/>
+
+    <!-- Decaying torso and reaching arm dripping black acid -->
+    <path d="M -22,-15 L -35,50 L 35,50 L 22,-15 Z" fill="#181818" stroke="#333" stroke-width="2"/>
+    <path d="M -30,-5 Q -65,15 -55,60" fill="none" stroke="#252525" stroke-width="8" stroke-linecap="round"/>
+    <path d="M 30,-5 Q 70,25 60,75" fill="none" stroke="#252525" stroke-width="8" stroke-linecap="round"/>
+
+    <!-- Corrosive drips -->
+    <circle cx="-55" cy="70" r="3" fill="#000"/>
+    <circle cx="62" cy="85" r="4" fill="#000"/>
+    <circle cx="10" cy="65" r="2.5" fill="#e74c3c"/>
+  </g>
+
+  <!-- Technical specs -->
+  <text x="15" y="22" fill="#e74c3c" font-family="monospace" font-size="11" font-weight="bold">ANOMALY SCHEMATIC: SCP-106</text>
+  <text x="15" y="37" fill="#888" font-family="monospace" font-size="9">CLASS: KETER // SOLID MATTER TRANSMUTATION</text>
+  <text x="385" y="285" text-anchor="end" fill="#e74c3c" font-family="monospace" font-size="9">HAZARD: POCKET DIMENSION VORTEX</text>
+</svg>

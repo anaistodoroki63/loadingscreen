@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <pattern id="grid096" width="20" height="20" patternUnits="userSpaceOnUse">
+    <path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  </pattern>
+  <rect width="100%" height="100%" fill="url(#grid096)"/>
+  
+  <line x1="200" y1="20" x2="200" y2="280" stroke="#e67e22" stroke-width="1" stroke-dasharray="4 4" opacity="0.3"/>
+  
+  <!-- Silhouette of SCP-096 crouched/curled in distress -->
+  <g transform="translate(200, 160)">
+    <!-- Elongated torso and thin ribs -->
+    <path d="M -15,-60 Q -25,-10 -15,50 L 15,50 Q 25,-10 15,-60 Z" fill="#2d3436" stroke="#e67e22" stroke-width="2"/>
+    
+    <!-- Ultra elongated arms clutching head -->
+    <path d="M -20,-45 Q -80,-10 -90,60 Q -85,110 -60,115" fill="none" stroke="#dfe6e9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 20,-45 Q 80,-10 90,60 Q 85,110 60,115" fill="none" stroke="#dfe6e9" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Long emaciated legs crouched -->
+    <path d="M -15,50 Q -50,90 -45,130 L -60,135" fill="none" stroke="#b2bec3" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 15,50 Q 50,90 45,130 L 60,135" fill="none" stroke="#b2bec3" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Head held between hands (crying posture) -->
+    <circle cx="0" cy="-75" r="24" fill="#353b48" stroke="#e67e22" stroke-width="2"/>
+    <!-- Redacted eyes bar -->
+    <rect x="-26" y="-82" width="52" height="14" fill="#ff003c" rx="2"/>
+    <text x="0" y="-72" fill="#fff" font-family="monospace" font-size="8" font-weight="bold" text-anchor="middle">[CENSORED]</text>
+  </g>
+
+  <!-- Technical Overlay -->
+  <rect x="25" y="24" width="350" height="250" fill="none" stroke="#e67e22" stroke-width="1" opacity="0.2"/>
+  <text x="15" y="22" fill="#e67e22" font-family="monospace" font-size="11" font-weight="bold">ANOMALY SCHEMATIC: SCP-096</text>
+  <text x="15" y="37" fill="#888" font-family="monospace" font-size="9">CLASS: EUCLID // VISUAL TRIGGER HAZARD</text>
+  <text x="385" y="285" text-anchor="end" fill="#e74c3c" font-family="monospace" font-size="9">DO NOT VIEW FACIAL FEATURES</text>
+</svg>
